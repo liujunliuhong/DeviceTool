@@ -303,6 +303,8 @@ extension UIDevice {
     /// 设备基本信息
     public static var gl_info: String {
         return
+            "\n"
+            +
             "*******************************************************************"
             + "\n"
             + "Sysname:          \(UIDevice._sysname)"
