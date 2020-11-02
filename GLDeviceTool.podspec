@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name                       = 'GLDeviceTool'
   s.homepage                   = 'https://github.com/liujunliuhong/DeviceTool'
   s.summary                    = 'UIDevice扩展，方便获取设备的一些属性'
-  s.description                = 'UIDevice扩展，方便获取设备的一些属性'
+  s.description                = 'UIDevice扩展，方便获取设备的一些属性，会随着Apple每年发布新设备而更新'
   s.author                     = { 'liujunliuhong' => '1035841713@qq.com' }
   s.version                    = '1.0.0'
   s.source                     = { :git => 'https://github.com/liujunliuhong/DeviceTool.git', :tag => s.version.to_s }
