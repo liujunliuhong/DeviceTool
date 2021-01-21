@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let machineName = UIDevice.gl_machineName
+        let machineName = UIDevice.gl_info
         print("\(machineName)")
     }
 

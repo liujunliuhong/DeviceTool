@@ -6,23 +6,22 @@
 - 屏幕宽、高获取
 - 是否是刘海屏手机获取
 - 设备信息获取（比如获取手机机器名:`iPhone 6s`）
+- iOS 13 之后，苹果对状态栏高度、样式、是否隐藏状态栏这几个属性的获取进行了修改，所以还对这几个属性的获取进行了封装
 
 # 相关属性
 
 属性|解释|
 :-:|:-:|
-`GLDeviceMachines` | 所有Apple设备信息集合 |
-`GL_Notch_iPhone_Sizes` | 刘海屏手机Size集合(兼容横竖屏) |
-`GL_Notch_iPhone_Types` | 刘海屏手机类型集合 |
 `gl_width` | 屏幕宽 | 
 `gl_height` | 屏幕高 |
 `gl_machineName` | 机器名(比如`iPhone X`) |
 `gl_info` | 设备信息 |
 `gl_isSimulator` | 是否是模拟器 |
 `gl_isNotchiPhone` | 是否是刘海屏手机 |
-`gl_notchHeight` | 刘海高度(只有刘海屏手机才有) |
 `gl_statusBarHeight` | 状态栏高度 |
-`gl_homeIndicatorHeight` | 虚拟Home键高度(只有刘海屏手机才有) |
+`gl_statusBarStyle` | 状态栏样式 |
+`gl_isStatusBarHidden` | 状态栏是否隐藏 |
+`gl_homeIndicatorHeight` | 虚拟Home键高度 |
 
 ## 安装
 ### 手动
@@ -42,6 +41,10 @@ let machineName = UIDevice.gl_machineName
 ```
 其余属性请看上方表格
 ## 更新记录(倒叙)
+
+### 2、1.1.0（2020.01.21）
+- 代码优化
+
 ### 1、1.0.0（2020.11.02）
 - 发布首个版本
 

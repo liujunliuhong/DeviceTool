@@ -13,6 +13,8 @@
 		850663C62550406000EB4188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850663C52550406000EB4188 /* Assets.xcassets */; };
 		850663C92550406000EB4188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850663C72550406000EB4188 /* LaunchScreen.storyboard */; };
 		850663D32550407600EB4188 /* UIDevice+GLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850663D22550407600EB4188 /* UIDevice+GLExtension.swift */; };
+		8598152D25B94E1D000ABD02 /* GLDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598152C25B94E1D000ABD02 /* GLDeviceType.swift */; };
+		8598153025B94E86000ABD02 /* GLDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598152F25B94E86000ABD02 /* GLDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		850663C82550406000EB4188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850663CA2550406000EB4188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850663D22550407600EB4188 /* UIDevice+GLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+GLExtension.swift"; sourceTree = "<group>"; };
+		8598152C25B94E1D000ABD02 /* GLDeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLDeviceType.swift; sourceTree = "<group>"; };
+		8598152F25B94E86000ABD02 /* GLDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				850663D22550407600EB4188 /* UIDevice+GLExtension.swift */,
+				8598152C25B94E1D000ABD02 /* GLDeviceType.swift */,
+				8598152F25B94E86000ABD02 /* GLDevice.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			files = (
 				850663C12550405E00EB4188 /* ViewController.swift in Sources */,
 				850663BD2550405E00EB4188 /* AppDelegate.swift in Sources */,
+				8598152D25B94E1D000ABD02 /* GLDeviceType.swift in Sources */,
+				8598153025B94E86000ABD02 /* GLDevice.swift in Sources */,
 				850663D32550407600EB4188 /* UIDevice+GLExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary                    = 'UIDevice扩展，方便获取设备的一些属性'
   s.description                = 'UIDevice扩展，方便获取设备的一些属性，会随着Apple每年发布新设备而更新'
   s.author                     = { 'liujunliuhong' => '1035841713@qq.com' }
-  s.version                    = '1.0.1'
+  s.version                    = '1.1.0'
   s.source                     = { :git => 'https://github.com/liujunliuhong/DeviceTool.git', :tag => s.version.to_s }
   s.platform                   = :ios, '8.0'
   s.license                    = { :type => 'MIT', :file => 'LICENSE' }
